@@ -1,0 +1,9 @@
+datasource:
+  postgre-active:
+    cacert: /Users/pbarman/Documents/tableauGroupon/certshare/ca.crt
+    driverClassName: org.postgresql.Driver
+    jdbcUrl: jdbc:postgresql://crawlplatformscrapping.sadc-postgres-dev01.carbon.lowes.com:3285/crawlplatformscrapping
+    jdbcReadUrl: jdbc:postgresql://crawlplatformscrapping.sadc-postgres-dev01.carbon.lowes.com:3285/crawlplatformscrapping
+    servercrt: /Users/pbarman/Documents/tableauGroupon/certshare/tls.crt
+    serverpk8: /Users/pbarman/Documents/LoaclDownload/server.pk8
+    creds: /Users/pbarman/Documents/LoaclDownload/postgreCreds.json
